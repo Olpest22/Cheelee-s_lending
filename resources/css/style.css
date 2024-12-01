@@ -1,0 +1,127 @@
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat";
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+
+    background-color: #140132;
+}
+
+* {
+    font-family: "Montserrat";
+}
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.color-accent {
+    color: #01ffc2;
+}
+
+.secondary-accent-color {
+    color: #7156FD33;
+    ;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 68.26px;
+    text-align: left;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 87.77px;
+    text-align: left;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+     
+}
+
+.gray-link {
+    color: #5e636e;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+
+.gray-link:hover {
+    color: white;
+}
+
+.fw-extra {
+    font-weight: 900;
+}
+
+.header,
+.mission {
+    position: relative;
+    z-index: 1;
+}
+
+.how-work__title {
+    font-size: 100px;
+    line-height: 80%;
+}
+
+@media(max-width: 768px) {
+    body {
+        font-size: 14px;
+        line-height: 120%;
+    
+        background-color: #140132;
+    }
+    h1 {
+        font-size: 26px;
+        line-height: 110%;
+    
+    }
+    
+    h2 {
+        font-size: 30px;
+        line-height: 110%;
+    }
+    
+    h3 {
+        font-size: 24px;
+        line-height: 1.1;
+         
+    }
+
+    .gray-link {
+        font-size: 12px;
+        line-height: 1.1;
+    }
+    .header__logo {
+        width: 50px;
+        height: auto;
+        object-fit: contain;
+        object-position: center center;
+    }
+
+    .how-work__title {
+        font-size: 50px;
+    }
+}
